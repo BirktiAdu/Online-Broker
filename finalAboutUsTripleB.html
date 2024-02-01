@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=allura|Josefin+Sans');
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: #809faa;
+            font-family: 'Josefin Sans', sans-serif ;
+        }
+        .wrapper{
+            margin-top: 5%;
+        }
+        .wrapper p{ 
+            text-align: center;
+            padding: 3px;
+        }
+        .wrapper h1{
+            font-family: 'Allura', cursive;
+            font-size: 52px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .team{
+            margin-top: 5%;
+            display: flex;
+            text-align: center;
+            width: auto;
+            justify-content: center;
+            flex-wrap: wrap ;
+        }
+        .team .team_member{
+            background-color: #fff;
+            margin: 5px;
+            margin-bottom: 50px;
+            width: 300px;
+            padding: 20px;
+            line-height: 20px;
+            color: #8e8b8b;
+            position: relative;
+        }
+        .team_member:hover{
+            background-color: #5fbff9;
+
+        }
+        .team_member:hover h3{
+            color: #fff;
+        }
+        .team_member:hover hr{
+            background-color: #fff;
+        }
+        .team_member:hover h3,
+        .team_member:hover hr
+        .team_member:hover .team_img{
+            transition: all 400ms ease-in-out;
+        }
+        .team .team_member h3{
+            color: #81c644;
+            font-size: 26px;
+            margin-top: 50px;
+        }
+        .team .team_member hr{
+            width: 46px;
+            height: 3px;
+            background-color: #5fbff9;
+            margin:  0 auto;
+            border: none; 
+        }
+        .team .team_member .team_img{
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            position: absolute;
+            top: -50px;
+            left: 50%;
+            transform: translateX(-50%);
+            background:#fff ;
+        }
+        .team .team_member .team_img img{
+            width: 100px;
+            height: 100px;
+            padding: 10px;
+            border-radius: 50%;
+        }
+        footer{
+         background-color: #212226;
+         padding: 20px;   
+        }
+        footer p{
+           padding: 0px;
+           color: #fff ;
+
+        }
+
+         
+
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+
+        <h1>About Us</h1>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+         Laboriosam molestiae obcaecati fugit accusantium corporis. 
+        Possimus, voluptas? Perspiciatis saepe tempora, iusto suscipit dolores distinctio quae,
+         explicabo perferendis nobis magni enim odio architecto, deserunt aperiam doloremque illum.</p>
+ 
+        <div class="team">
+                <div class="team_member">
+                    <div class="team_img">
+                        <img src="dream_TradingCard (1).jpg " alt="team_member_image">
+                    </div>
+                    <h3>Mission</h3>
+                    <hr>
+                    <p class="role">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Voluptatem, nam! Laboriosam rerum, facilis ullam exercitationem debitis commodi, 
+                        nesciunt nemo sunt tempore temporibus nobis facere odio!</p>
+   
+                </div>
+                <div class="team_member">
+                    <div class="team_img">
+                        <img src="dream_TradingCard (2).jpg" alt="team_member_image">
+                    </div>
+                    <h3>Vission</h3>
+                    <hr>
+                    <p class="role">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Optio, nobis. Eos ea minima in natus sint laborum minus repudiandae. 
+                        Deleniti cupiditate dolorem excepturi in velit.</p>
+
+                </div>
+                <div class="team_member">
+                    <div class="team_img">
+                        <img src="dream_TradingCard (10).jpg " alt="team_member_image">
+                    </div>
+                    <h3>Purpose</h3>
+                    <hr>
+                    <p class="role">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Dolorum repellendus eveniet voluptatem dolores quam ad, nemo beatae ipsa 
+                        quisquam cumque fugit sed alias doloribus aliquid?</p>
+
+                </div>
+
+        </div>
+    </div>
+    <footer class="text-center">
+        <p>Copyright &copy; 2024 All right reserved by Triple Brokers Inc.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sell Your Car</title>
+    <link rel="stylesheet" href="seller.css">
+</head>
+<body>
+    <header>
+        <h1>Car Seller's Portal</h1>
+    </header>
+    
+    <main id="add-car-form">
+        <h2>List Your Car</h2>
+        <form action="submit_car.php" method="post" enctype="multipart/form-data">
+            <input type="text" name="make" placeholder="Make" required>
+            <input type="text" name="model" placeholder="Model" required>
+            <input type="number" name="year" placeholder="Year" required>
+            <input type="number" name="price" placeholder="Price" required>
+            <textarea name="description" placeholder="Description"></textarea>
+            <input type="file" name="image" accept="image/*">
+            <button type="submit">List Car</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Car Seller's Portal</p>
+    </footer>
+
+    <script src="seller.js"></script>
+</body>
+</html>

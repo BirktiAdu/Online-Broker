@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apple Clone</title>
+    <link rel="stylesheet" href="homepage.css">
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="logo.jpg" alt="logo">
+            </div>
+            <ul id="nav-list">
+                <li> Home  </li>
+                <li> About us </li>
+                <li> contact us </li>
+                <li> Register now </li>
+                <li>  Add your Products </li>
+                <li> products</li>
+                <li> services</li>
+                <li>  privacy policy </li>
+                
+                <img  class="cross" src="home.jpg" alt="cross">
+            </ul>
+            <div class="nav-icons">
+                <img src="search.png" alt="search">
+                <img class="menuopen" src="./images/hamburger-menu-5.png" alt="menu">
+            </div>
+        </div>
+        <div class="offers">
+            <p>theBest online broker in town.
+                </p>
+            <a href="#">See Offers </a>
+        </div>
+        <div class="back-video">
+            <video autoplay loop muted play-inline >
+                <source src="pexels_videos_4280 (720p).mp4"  type="video/mp4">  
+            </video>
+        </div>
+
+        <div class="section">
+            <div class="titles">
+                <h1> The best Quality you can Find.  </h1>
+            </div>
+            <div class="services">
+                 <img src="./images/pexels-italo-melo-2379004.jpg" alt="service">
+                 <p>Need a Shopping help ? </p>
+                 <a href="#">feed back form</a> <br>
+                 <img src="logo.jpg" alt="service">
+                 <p>Visit out product store</p>
+            </div>
+            
+            </div>
+            <div class="products">
+                <div class="product">
+                    <img src="ho.jpg" alt="product">
+                    <a href="#">Quality HOUSE</a>
+                </div>
+                <div class="product">
+                    <img src="cr.png" alt="product">
+                    <a href="#">fastcar</a>
+                </div>
+                <div class="product">
+                    <img src="pl.jpg" alt="product">
+                    <a href="#" >HOUSE</a>
+                </div>
+                <div class="product">
+                    <img src="im.png" alt="product">
+                    <a href="#">brandcars</a>
+                </div>
+                <div class="product">
+                    <img src="key.jpg" alt="product">
+                    <a href="#">Home</a>
+                </div>
+                <div class="product">
+                    <img src="p.jpg" alt="product">
+                    <a href="#">fastMotor</a>
+                </div>
+               
+        </div>
+        <div class="card-container">
+            <h1>The latest. Take a look at what’s new right now. </h1>
+            <div class="cards">
+                 <div class="card">
+                    <span>OUR OFFER</span>
+                    <h1>Quality vilas.</h1>
+                    <p>Looking for your next home we have got you</p>
+                    <img src="vu.jpg" alt="macbook">
+                 </div>
+                 <div class="card">
+                    <span>OUR OFFER</span>
+                    <h1>Fast and longlasting cars. Buy Now </h1>
+                    <p>Get the confortable experience </p>
+                    <img src="featured2.png" alt="macbook">
+                 </div>
+                 
+            </div>
+        </div>
+        <div class="apple-events">
+            <h1>
+                Let's Explore COZY Events
+                photos photos</h1>
+                <div class="event-pictures">
+                    <img src="featured2.png" alt="events">
+                    <img src="cr.png" alt="events">
+                </div>
+        </div>
+        <div class="section-3">
+            <img src="app.jpg" alt="house">
+            <h1> appartment
+               <br>
+              
+                </h1>
+        </div>
+        <div class="menu-items">
+            <div class="store">
+                <img  src="logo.jpg" alt="logo">
+                <p>COZY Store</p>
+            </div>
+            <div class="menu-list">
+                <ul>
+                    <li>Services</li>
+                    <li> Villa</li>
+                    <li>Apartment</li>
+                    <li>Condominium </li>
+                    <li>Shopping Mall </li>
+                    <li>Hotel </li>
+                    <li>Warehouse </li>
+                    <li>Cars </li>
+                </ul>
+                <ul>
+                   <li>Types of Home</li>
+                   <li>victorian architecture</li>
+                    <li>farm house</li>
+                     <li>cottage</li>
+                      <li>gojo bet </li>
+                        <li>>ranch-style house</li>
+                </ul>
+                <ul>
+                    <li>>sedan</li>
+                    <li>crossover</li>
+                    <li>suv</li>
+                    <li>hatchback</li>
+                    <li>station wagon</li>
+                    <li>coupe</li>
+                   
+                </ul>
+            </div>
+            <div class="footer">
+                <p>Copyright © 2024 COZY Inc. All rights reserved. Privacy Policy Terms of Use Sales Policy Legal Site Map </p>
+            </div>
+        </div>
+    </div>
+    <script>
+      let nav_list = document.getElementById('nav-list')
+      let openMenu = document.querySelector('.menuopen')
+      let cross = document.querySelector('.cross')
+      openMenu.addEventListener('click',()=>{
+        nav_list.style.opacity = '100%'
+        openMenu.style.display ='none'
+      })
+      cross.addEventListener('click',()=>{
+        nav_list.style.opacity = '0%';
+        setTimeout(()=>{
+            openMenu.style.display ='block'
+        },400)
+      })
+
+    </script>
+</body>
+</html>
